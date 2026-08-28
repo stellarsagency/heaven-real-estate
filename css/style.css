@@ -455,8 +455,8 @@ ul { list-style: none; }
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     background: radial-gradient(circle, rgba(200, 169, 81, 0.12) 0%, transparent 70%);
     border-radius: 50%;
     animation: glowPulse 4s ease-in-out infinite;
@@ -479,9 +479,9 @@ ul { list-style: none; }
 .hero-badge {
     display: inline-flex;
     align-items: center;
-    gap: 16px;
-    margin-bottom: 30px;
-    padding: 14px 32px;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding: 10px 24px;
     background: rgba(0, 0, 0, 0.7);
     border: 2px solid rgba(200, 169, 81, 0.5);
     border-radius: 50px;
@@ -498,23 +498,23 @@ ul { list-style: none; }
 }
 
 .hero-badge span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: var(--gold-light);
 }
 
 .hero-title {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .title-line-1 {
     display: block;
     font-family: var(--font-heading);
-    font-size: clamp(3rem, 8vw, 6rem);
+    font-size: clamp(2rem, 6vw, 6rem);
     font-weight: 800;
     color: #FFFFFF;
-    letter-spacing: 12px;
+    letter-spacing: 8px;
     line-height: 1;
     text-shadow: 0 0 60px rgba(200, 169, 81, 0.5), 0 4px 30px rgba(0, 0, 0, 0.8), 0 2px 10px rgba(0, 0, 0, 0.9);
 }
@@ -522,29 +522,29 @@ ul { list-style: none; }
 .title-line-2 {
     display: block;
     font-family: var(--font-heading);
-    font-size: clamp(1rem, 2.5vw, 1.5rem);
+    font-size: clamp(0.8rem, 2vw, 1.5rem);
     font-weight: 500;
     color: var(--gold-light);
-    letter-spacing: 8px;
+    letter-spacing: 6px;
     margin-top: 8px;
     text-shadow: 0 2px 20px rgba(200, 169, 81, 0.5), 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
 .hero-tagline {
     font-family: var(--font-accent);
-    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    font-size: clamp(1rem, 2vw, 1.8rem);
     color: #FFFFFF;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     font-style: italic;
     text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
 .hero-description {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #E5E7EB;
-    max-width: 550px;
-    margin: 0 auto 40px;
-    line-height: 1.8;
+    max-width: 500px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
     text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
 }
 
@@ -552,19 +552,19 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 16px;
-    margin-bottom: 40px;
+    gap: 12px;
+    margin-bottom: 28px;
     flex-wrap: wrap;
 }
 
 .btn {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 16px 32px;
+    gap: 8px;
+    padding: 12px 24px;
     border-radius: 8px;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     cursor: pointer;
     transition: var(--transition);
     border: none;
@@ -610,13 +610,13 @@ ul { list-style: none; }
 .location-badge {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 14px 28px;
+    gap: 8px;
+    padding: 10px 22px;
     background: rgba(0, 0, 0, 0.7);
     border: 2px solid rgba(200, 169, 81, 0.6);
     border-radius: 50px;
     color: #FFFFFF;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 600;
     backdrop-filter: blur(20px);
     transition: var(--transition);
@@ -680,8 +680,8 @@ ul { list-style: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding: 18px 30px;
+    gap: 30px;
+    padding: 14px 24px;
     background: rgba(0, 0, 0, 0.85);
     border-top: 1px solid rgba(200, 169, 81, 0.3);
     backdrop-filter: blur(20px);
@@ -694,7 +694,7 @@ ul { list-style: none; }
 
 .stat-number {
     font-family: var(--font-heading);
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--gold-light);
     text-shadow: 0 0 20px rgba(200, 169, 81, 0.3);
@@ -702,13 +702,13 @@ ul { list-style: none; }
 
 .stat-suffix {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     color: var(--gold-light);
 }
 
 .stat-label {
     display: block;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--gray-light);
     letter-spacing: 1px;
     margin-top: 2px;
@@ -2108,21 +2108,24 @@ ul { list-style: none; }
     .logo-img { height: 45px; }
 
     .hero-content { padding: 0 16px; }
-    .hero-badge { padding: 12px 20px; }
-    .hero-badge span { font-size: 0.7rem; letter-spacing: 2px; }
-    .hero-description { font-size: 0.9rem; }
-    .hero-locations { gap: 12px; }
-    .location-badge { padding: 10px 20px; font-size: 0.85rem; }
+    .hero-badge { padding: 8px 16px; margin-bottom: 14px; }
+    .hero-badge span { font-size: 0.6rem; letter-spacing: 2px; }
+    .hero-title { margin-bottom: 10px; }
+    .hero-tagline { margin-bottom: 10px; }
+    .hero-description { font-size: 0.85rem; margin-bottom: 20px; }
+    .hero-locations { gap: 10px; }
+    .location-badge { padding: 8px 16px; font-size: 0.8rem; }
     .hero-scroll { display: none; }
 
     .hero-stats {
         flex-wrap: wrap;
-        gap: 16px;
-        padding: 16px;
+        gap: 12px;
+        padding: 12px 16px;
     }
 
-    .stat-number { font-size: 1.4rem; }
-    .stat-label { font-size: 0.65rem; }
+    .stat-number { font-size: 1.2rem; }
+    .stat-suffix { font-size: 0.8rem; }
+    .stat-label { font-size: 0.6rem; }
     .stat-divider { display: none; }
 
     .hero-cta { flex-direction: column; width: 100%; max-width: 100%; gap: 12px; }
@@ -2252,18 +2255,21 @@ ul { list-style: none; }
 @media (max-width: 480px) {
     .section { padding: 60px 0; }
 
-    .title-line-1 { font-size: 2.5rem; letter-spacing: 4px; }
-    .title-line-2 { font-size: 0.85rem; letter-spacing: 4px; }
-    .hero-tagline { font-size: 1.1rem; }
-    .hero-badge { flex-direction: column; gap: 8px; padding: 10px 16px; }
-    .hero-badge span { font-size: 0.65rem; letter-spacing: 1.5px; }
-    .hero-locations { flex-direction: column; align-items: center; gap: 10px; }
-    .location-badge { padding: 8px 16px; font-size: 0.8rem; }
+    .title-line-1 { font-size: 2rem; letter-spacing: 3px; }
+    .title-line-2 { font-size: 0.75rem; letter-spacing: 3px; }
+    .hero-tagline { font-size: 0.95rem; }
+    .hero-description { font-size: 0.8rem; }
+    .hero-badge { flex-direction: column; gap: 6px; padding: 8px 14px; margin-bottom: 12px; }
+    .hero-badge span { font-size: 0.55rem; letter-spacing: 1.5px; }
+    .hero-locations { flex-direction: column; align-items: center; gap: 8px; }
+    .location-badge { padding: 7px 14px; font-size: 0.75rem; }
 
-    .hero-stats { flex-direction: column; gap: 12px; }
-    .stat-number { font-size: 1.2rem; }
+    .hero-stats { flex-direction: column; gap: 10px; }
+    .stat-number { font-size: 1.1rem; }
+    .stat-suffix { font-size: 0.7rem; }
+    .stat-label { font-size: 0.55rem; }
 
-    .btn { padding: 12px 20px; font-size: 0.85rem; }
+    .btn { padding: 10px 18px; font-size: 0.8rem; }
 
     .about-img-main { padding: 20px; }
     .about-building-img { height: 200px; }
@@ -2312,13 +2318,17 @@ ul { list-style: none; }
 }
 
 @media (max-width: 360px) {
-    .title-line-1 { font-size: 2rem; letter-spacing: 3px; }
-    .title-line-2 { font-size: 0.75rem; letter-spacing: 3px; }
-    .hero-tagline { font-size: 1rem; }
-    .hero-description { font-size: 0.85rem; }
-    .location-badge { padding: 8px 14px; font-size: 0.75rem; }
-    .stat-number { font-size: 1.1rem; }
-    .btn { padding: 12px 18px; font-size: 0.8rem; }
+    .title-line-1 { font-size: 1.8rem; letter-spacing: 2px; }
+    .title-line-2 { font-size: 0.7rem; letter-spacing: 2px; }
+    .hero-tagline { font-size: 0.9rem; }
+    .hero-description { font-size: 0.75rem; margin-bottom: 16px; }
+    .hero-badge { padding: 6px 12px; margin-bottom: 10px; }
+    .hero-badge span { font-size: 0.5rem; }
+    .location-badge { padding: 6px 12px; font-size: 0.7rem; }
+    .stat-number { font-size: 1rem; }
+    .stat-suffix { font-size: 0.65rem; }
+    .stat-label { font-size: 0.5rem; }
+    .btn { padding: 10px 16px; font-size: 0.75rem; }
 }
 
 /* ---------- About Image ---------- */
