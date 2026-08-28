@@ -2352,7 +2352,7 @@ ul { list-style: none; }
 .mp-divider { width: 1px; height: 120px; background: var(--black-border); }
 .mp-right { display: flex; flex-direction: column; align-items: center; gap: 16px; }
 .mp-logo-box { background: #fff; border: 1px solid var(--black-border); border-radius: 12px; padding: 18px 26px; display: flex; align-items: center; justify-content: center; }
-.mp-logo { height: 64px; width: auto; object-fit: contain; }
+.mp-logo { height: 96px; width: auto; object-fit: contain; }
 .mp-badge { display: inline-flex; align-items: center; gap: 7px; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); color: var(--black); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; padding: 7px 16px; border-radius: 30px; }
 .mp-badge i { font-size: 0.82rem; }
 .mp-tags { display: flex; gap: 12px; flex-wrap: wrap; }
@@ -2566,7 +2566,7 @@ ul { list-style: none; }
     .hero-content { padding-top: 100px; }
     .mp-card { padding: 28px 18px; }
     .mp-heading { font-size: 1.6rem; }
-    .mp-logo { height: 52px; }
+    .mp-logo { height: 70px; }
     .vh-logo-img { height: 56px; }
     .office-card { padding: 26px 20px; }
 
