@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 380" width="300" height="380">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#C5A55A"/>
+      <stop offset="50%" style="stop-color:#D4B96E"/>
+      <stop offset="100%" style="stop-color:#C5A55A"/>
+    </linearGradient>
+    <clipPath id="circle-clip2">
+      <circle cx="150" cy="150" r="120"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="300" height="380" fill="none"/>
+  
+  <!-- Outer ring -->
+  <circle cx="150" cy="150" r="130" fill="none" stroke="url(#gold)" stroke-width="4"/>
+  
+  <!-- Profile circle background -->
+  <circle cx="150" cy="150" r="120" fill="#1a1a1a"/>
+  
+  <!-- Person silhouette -->
+  <g clip-path="url(#circle-clip2)">
+    <!-- Head -->
+    <circle cx="150" cy="110" r="45" fill="#2a2a2a"/>
+    <!-- Body/Shoulders -->
+    <ellipse cx="150" cy="250" rx="80" ry="70" fill="#2a2a2a"/>
+    <!-- Suit collar -->
+    <path d="M120,180 L150,200 L180,180" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <!-- Shirt -->
+    <rect x="140" y="175" width="20" height="30" fill="#3a3a3a"/>
+  </g>
+  
+  <!-- Decorative corner elements -->
+  <path d="M20,20 L20,50 M20,20 L50,20" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M280,20 L280,50 M280,20 L250,20" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M20,360 L20,330 M20,360 L50,360" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M280,360 L280,330 M280,360 L250,360" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  
+  <!-- Name placeholder -->
+  <text x="150" y="320" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#1a1a1a">Mian Usman</text>
+  <text x="150" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="url(#gold)" letter-spacing="3" font-weight="600">OWNER</text>
+</svg>
