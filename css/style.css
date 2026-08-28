@@ -1534,6 +1534,80 @@ ul { list-style: none; }
     color: var(--black);
 }
 
+.leader-card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background: var(--white);
+    border: 1px solid var(--black-border);
+    border-radius: var(--radius-lg);
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: var(--shadow-md);
+}
+
+.leader-card.chairman {
+    flex-direction: row;
+    border-top: 4px solid var(--gold);
+}
+
+.leader-card.ceo {
+    flex-direction: row-reverse;
+    background: var(--off-white);
+}
+
+.leader-photo-wrap {
+    flex-shrink: 0;
+    width: 320px;
+    height: 380px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 3px solid var(--gold);
+}
+
+.leader-photo-wrap.small {
+    width: 180px;
+    height: 220px;
+}
+
+.leader-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.leader-body {
+    flex: 1;
+}
+
+.leader-role {
+    color: var(--gold);
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.leader-body h3 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: var(--text);
+    margin-bottom: 18px;
+}
+
+.leader-message p {
+    color: var(--text-light);
+    line-height: 1.9;
+    margin-bottom: 16px;
+    font-size: 1rem;
+}
+
+.leader-message strong {
+    color: var(--gold-dark);
+}
+
 .owner-shared-message {
     background: var(--black);
     padding: 40px;
@@ -1949,6 +2023,29 @@ ul { list-style: none; }
     border-color: var(--gold);
 }
 
+.footer-media-partner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 18px 0 22px;
+}
+
+.footer-media-partner span {
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gray-light);
+}
+
+.footer-media-logo {
+    height: 36px;
+    width: auto;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 6px;
+    object-fit: contain;
+}
+
 .footer-links h4,
 .footer-contact h4 {
     font-family: var(--font-heading);
@@ -2199,6 +2296,10 @@ ul { list-style: none; }
     .osm-content p { font-size: 1rem; }
     .osm-signatures { flex-direction: column; gap: 16px; }
     .osm-divider { width: 40px; height: 1px; }
+    .leader-card { flex-direction: column !important; text-align: center; padding: 28px 20px; gap: 24px; }
+    .leader-photo-wrap { width: 220px; height: 260px; }
+    .leader-photo-wrap.small { width: 160px; height: 200px; }
+    .leader-body h3 { font-size: 1.6rem; }
     .team-quote { padding: 30px 20px; }
     .team-quote blockquote { font-size: 1.1rem; }
 
