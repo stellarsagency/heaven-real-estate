@@ -481,7 +481,7 @@ ul { list-style: none; }
     text-align: center;
     max-width: 800px;
     padding: 0 24px;
-    padding-bottom: 70px;
+    padding-bottom: 20px;
 }
 
 .hero-badge {
@@ -682,19 +682,18 @@ ul { list-style: none; }
 }
 
 .hero-stats {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
     padding: 14px 24px;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.9);
     border-top: 1px solid rgba(200, 169, 81, 0.3);
     backdrop-filter: blur(20px);
     z-index: 5;
+    margin-top: auto;
 }
 
 .stat {
@@ -2118,7 +2117,7 @@ ul { list-style: none; }
     .header-container { padding: 0 16px; }
     .logo-img { height: 45px; }
 
-    .hero-content { padding: 0 16px; padding-bottom: 60px; }
+    .hero-content { padding: 0 16px; padding-bottom: 16px; }
     .hero-badge { padding: 8px 16px; margin-bottom: 14px; }
     .hero-badge span { font-size: 0.6rem; letter-spacing: 2px; }
     .hero-title { margin-bottom: 10px; }
