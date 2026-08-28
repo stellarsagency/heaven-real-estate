@@ -91,11 +91,15 @@ ul { list-style: none; }
 
 .preloader-inner {
     text-align: center;
+    width: 100%;
+    max-width: 300px;
+    padding: 0 20px;
 }
 
 .preloader-svg {
-    width: 200px;
-    height: 80px;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
 }
 
 .preloader-text {
@@ -114,10 +118,11 @@ ul { list-style: none; }
 }
 
 .preloader-bar {
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     height: 2px;
     background: var(--black-border);
-    margin: 25px auto 0;
+    margin: 20px auto 0;
     border-radius: 2px;
     overflow: hidden;
 }
@@ -2253,10 +2258,11 @@ ul { list-style: none; }
     [data-animate] { opacity: 1 !important; transform: none !important; transition: none !important; }
 
     #preloader { transition: opacity 0.3s, visibility 0.3s; }
-    .preloader-svg { width: 140px; height: 60px; }
-    .preloader-text { font-size: 24px; letter-spacing: 4px; }
+    .preloader-inner { max-width: 260px; }
+    .preloader-svg { max-width: 180px; }
+    .preloader-text { font-size: 26px; letter-spacing: 4px; }
     .preloader-sub { font-size: 8px; letter-spacing: 2px; }
-    .preloader-bar { width: 140px; }
+    .preloader-bar { max-width: 160px; }
 
     .service-number { color: rgba(var(--gold-rgb), 0.6); font-size: 1.8rem; }
     .step-marker { box-shadow: 0 2px 15px rgba(200, 169, 81, 0.5); }
