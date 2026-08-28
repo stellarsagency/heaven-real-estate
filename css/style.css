@@ -1038,7 +1038,7 @@ ul { list-style: none; }
     font-family: var(--font-heading);
     font-size: 2rem;
     font-weight: 700;
-    color: rgba(var(--gold-rgb), 0.15);
+    color: rgba(var(--gold-rgb), 0.5);
 }
 
 .service-card h3 {
@@ -1349,6 +1349,7 @@ ul { list-style: none; }
     font-size: 1.1rem;
     font-weight: 700;
     color: var(--black);
+    text-shadow: none;
 }
 
 .step-content {
@@ -2249,7 +2250,16 @@ ul { list-style: none; }
     .whatsapp-float { width: 50px; height: 50px; font-size: 1.4rem; bottom: 20px; left: 20px; }
     .back-to-top { width: 42px; height: 42px; bottom: 20px; right: 20px; }
 
-    [data-animate] { opacity: 1; transform: none; }
+    [data-animate] { opacity: 1 !important; transform: none !important; transition: none !important; }
+
+    #preloader { transition: opacity 0.3s, visibility 0.3s; }
+    .preloader-svg { width: 140px; height: 60px; }
+    .preloader-text { font-size: 24px; letter-spacing: 4px; }
+    .preloader-sub { font-size: 8px; letter-spacing: 2px; }
+    .preloader-bar { width: 140px; }
+
+    .service-number { color: rgba(var(--gold-rgb), 0.6); font-size: 1.8rem; }
+    .step-marker { box-shadow: 0 2px 15px rgba(200, 169, 81, 0.5); }
 }
 
 @media (max-width: 480px) {

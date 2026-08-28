@@ -8,10 +8,13 @@
 
     // Preloader
     const preloader = document.getElementById('preloader');
+    const isMobile = window.innerWidth <= 768;
+    const loadDelay = isMobile ? 600 : 1200;
+    const maxDelay = isMobile ? 1500 : 3000;
     window.addEventListener('load', () => {
-        setTimeout(() => preloader.classList.add('loaded'), 1200);
+        setTimeout(() => preloader.classList.add('loaded'), loadDelay);
     });
-    setTimeout(() => preloader.classList.add('loaded'), 3000);
+    setTimeout(() => preloader.classList.add('loaded'), maxDelay);
 
     // Header Scroll
     const header = document.getElementById('header');
