@@ -196,9 +196,6 @@ ul { list-style: none; }
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid rgba(200, 169, 81, 0.3);
 }
-    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.6);
-    border-bottom: 1px solid rgba(200, 169, 81, 0.25);
-}
 
 .header-container {
     max-width: 1200px;
