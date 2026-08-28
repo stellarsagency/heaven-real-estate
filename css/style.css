@@ -2251,6 +2251,42 @@ ul { list-style: none; }
 }
 
 /* ---------- Responsive ---------- */
+/* ---------- Home Ventures / Media / Offices ---------- */
+.ventures-home { background: var(--white); }
+.ventures-home-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 900px; margin: 0 auto; }
+.vh-card { background: var(--off-white); border: 1px solid var(--black-border); border-radius: var(--radius); padding: 36px 30px; text-align: center; box-shadow: var(--shadow-sm); transition: var(--transition); }
+.vh-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-gold); border-color: var(--gold); }
+.vh-logo { margin-bottom: 18px; }
+.vh-logo-img { height: 70px; width: auto; object-fit: contain; }
+.vh-fallback { display: none; font-size: 2.4rem; color: var(--gold); align-items: center; justify-content: center; }
+.vh-icons { display: flex; justify-content: center; gap: 18px; margin-bottom: 18px; }
+.vh-icons i { width: 60px; height: 60px; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--black); font-size: 1.4rem; }
+.vh-card h4 { font-family: var(--font-heading); font-size: 1.3rem; color: var(--text); margin-bottom: 12px; }
+.vh-card p { color: var(--text-light); line-height: 1.8; font-size: 0.95rem; }
+.vh-card strong { color: var(--gold-dark); }
+
+.media-partners { background: var(--black); }
+.media-partners .section-label { color: var(--gold); }
+.media-partners .section-title { color: var(--white); }
+.media-partners .section-desc { color: var(--gray-light); }
+.mp-wrap { display: flex; align-items: center; gap: 30px; background: var(--white); border-radius: var(--radius-lg); padding: 36px 40px; max-width: 760px; margin: 0 auto; box-shadow: var(--shadow-md); }
+.mp-logo-box { flex-shrink: 0; background: #fff; border-radius: 10px; padding: 14px 20px; border: 1px solid var(--black-border); }
+.mp-logo { height: 60px; width: auto; object-fit: contain; }
+.mp-text h4 { font-family: var(--font-heading); font-size: 1.4rem; color: var(--text); margin-bottom: 6px; }
+.mp-text p { color: var(--text-light); margin-bottom: 14px; }
+.mp-tags { display: flex; gap: 12px; flex-wrap: wrap; }
+.mp-tags span { display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--gray); background: var(--cream); padding: 6px 14px; border-radius: 20px; }
+
+.offices-home { background: var(--white); }
+.offices-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 800px; margin: 0 auto; }
+.office-card { background: var(--off-white); border: 1px solid var(--black-border); border-top: 3px solid var(--gold); border-radius: var(--radius); padding: 34px 30px; text-align: center; box-shadow: var(--shadow-sm); transition: var(--transition); }
+.office-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-gold); border-color: var(--gold); }
+.office-icon { width: 56px; height: 56px; margin: 0 auto 16px; background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--black); font-size: 1.3rem; }
+.office-card h4 { font-family: var(--font-heading); font-size: 1.3rem; color: var(--text); margin-bottom: 12px; }
+.office-card p { color: var(--text-light); line-height: 1.8; margin-bottom: 16px; }
+.office-phone { display: inline-flex; align-items: center; gap: 8px; color: var(--gray); font-size: 0.95rem; font-weight: 600; padding: 8px 18px; background: var(--cream); border-radius: 8px; transition: var(--transition); }
+.office-phone:hover { background: var(--gold); color: var(--black); }
+
 @media (max-width: 1024px) {
     .container { padding: 0 20px; }
     .section { padding: 100px 0; }
@@ -2364,6 +2400,9 @@ ul { list-style: none; }
     .leader-body h3 { font-size: 1.6rem; }
     .ventures-grid { grid-template-columns: 1fr; gap: 16px; }
     .ventures-title { font-size: 1.3rem; }
+    .ventures-home-grid { grid-template-columns: 1fr; }
+    .offices-grid { grid-template-columns: 1fr; }
+    .mp-wrap { flex-direction: column; text-align: center; padding: 30px 20px; }
     .team-quote { padding: 30px 20px; }
     .team-quote blockquote { font-size: 1.1rem; }
 
