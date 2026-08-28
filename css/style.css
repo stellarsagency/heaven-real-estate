@@ -730,6 +730,7 @@ ul { list-style: none; }
 
 /* ---------- About ---------- */
 .about { background: var(--white); overflow: hidden; }
+.about-home { background: #EBE5C2; }
 
 .about-grid {
     display: grid;
