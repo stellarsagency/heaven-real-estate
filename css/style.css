@@ -104,6 +104,8 @@ ul { list-style: none; }
     font-weight: 700;
     color: #fff;
     letter-spacing: 10px;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .preloader-sub {
@@ -113,6 +115,8 @@ ul { list-style: none; }
     color: var(--gold);
     letter-spacing: 5px;
     margin-top: 6px;
+    display: inline-block;
+    margin-left: 5px;
 }
 
 .preloader-bar {
@@ -2255,8 +2259,8 @@ ul { list-style: none; }
     [data-animate] { opacity: 1 !important; transform: none !important; transition: none !important; }
 
     #preloader { transition: opacity 0.3s, visibility 0.3s; }
-    .preloader-title { font-size: 28px; letter-spacing: 6px; }
-    .preloader-sub { font-size: 9px; letter-spacing: 3px; }
+    .preloader-title { font-size: 26px; letter-spacing: 6px; margin-left: 6px; }
+    .preloader-sub { font-size: 9px; letter-spacing: 3px; margin-left: 3px; }
     .preloader-bar { width: 160px; }
 
     .service-number { color: rgba(var(--gold-rgb), 0.6); font-size: 1.8rem; }
