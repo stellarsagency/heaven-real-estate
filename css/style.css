@@ -1608,6 +1608,67 @@ ul { list-style: none; }
     color: var(--gold-dark);
 }
 
+.ventures {
+    margin: 10px 0 30px;
+}
+
+.ventures-title {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--text);
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.ventures-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.venture-card {
+    background: var(--white);
+    border: 1px solid var(--black-border);
+    border-top: 3px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 26px 22px;
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.venture-card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-gold);
+    border-color: var(--gold);
+}
+
+.venture-icon {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto 16px;
+    background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+    font-size: 1.3rem;
+}
+
+.venture-card h4 {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+
+.venture-card p {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
 .owner-shared-message {
     background: var(--black);
     padding: 40px;
@@ -2198,6 +2259,7 @@ ul { list-style: none; }
     .locations-grid { grid-template-columns: 1fr; }
     .why-grid { grid-template-columns: repeat(2, 1fr); }
     .future-grid { grid-template-columns: repeat(2, 1fr); }
+    .ventures-grid { grid-template-columns: repeat(2, 1fr); }
     .footer-grid { grid-template-columns: repeat(2, 1fr); }
     .hero-stats { gap: 30px; }
     .vm-card { padding: 30px; }
@@ -2300,6 +2362,8 @@ ul { list-style: none; }
     .leader-photo-wrap { width: 220px; height: 260px; }
     .leader-photo-wrap.small { width: 160px; height: 200px; }
     .leader-body h3 { font-size: 1.6rem; }
+    .ventures-grid { grid-template-columns: 1fr; gap: 16px; }
+    .ventures-title { font-size: 1.3rem; }
     .team-quote { padding: 30px 20px; }
     .team-quote blockquote { font-size: 1.1rem; }
 
