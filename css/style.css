@@ -2325,7 +2325,7 @@ ul { list-style: none; }
     .header-container { padding: 0 16px; }
     .logo-img { height: 55px; }
 
-    .hero-content { padding: 0 16px; padding-bottom: 16px; }
+    .hero-content { padding: 0 16px; padding-top: 120px; padding-bottom: 16px; }
     .hero-badge { padding: 8px 16px; margin-bottom: 14px; }
     .hero-badge span { font-size: 0.6rem; letter-spacing: 2px; }
     .hero-title { margin-bottom: 10px; }
@@ -2493,6 +2493,13 @@ ul { list-style: none; }
 
 @media (max-width: 480px) {
     .section { padding: 60px 0; }
+
+    .hero-content { padding-top: 100px; }
+    .mp-card { padding: 28px 18px; }
+    .mp-heading { font-size: 1.6rem; }
+    .mp-logo { height: 52px; }
+    .vh-logo-img { height: 56px; }
+    .office-card { padding: 26px 20px; }
 
     .title-line-1 { font-size: 2rem; letter-spacing: 3px; }
     .title-line-2 { font-size: 0.75rem; letter-spacing: 3px; }
