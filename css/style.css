@@ -82,6 +82,7 @@ ul { list-style: none; }
     align-items: center;
     justify-content: center;
     transition: opacity 0.6s, visibility 0.6s;
+    overflow: hidden;
 }
 
 #preloader.loaded {
@@ -727,7 +728,7 @@ ul { list-style: none; }
 }
 
 /* ---------- About ---------- */
-.about { background: var(--white); }
+.about { background: var(--white); overflow: hidden; }
 
 .about-grid {
     display: grid;
@@ -1083,6 +1084,7 @@ ul { list-style: none; }
 .locations {
     background: var(--black);
     color: var(--white);
+    overflow: hidden;
 }
 
 .locations-header {
@@ -2375,6 +2377,7 @@ ul { list-style: none; }
 .cta-bg {
     position: absolute;
     inset: 0;
+    overflow: hidden;
 }
 
 .cta-bg-img {
@@ -2457,6 +2460,7 @@ ul { list-style: none; }
 /* ---------- Testimonials ---------- */
 .testimonials {
     background: var(--cream);
+    overflow: hidden;
 }
 
 .testimonials-header {
@@ -2481,6 +2485,7 @@ ul { list-style: none; }
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
     border: 1px solid transparent;
+    overflow: hidden;
 }
 
 .testimonial-card:hover {
