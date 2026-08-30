@@ -2360,7 +2360,10 @@ ul { list-style: none; }
 .mp-tags { display: flex; gap: 12px; flex-wrap: wrap; }
 .mp-tags span { display: inline-flex; align-items: center; gap: 8px; font-size: 0.85rem; color: var(--gray); background: var(--cream); padding: 6px 14px; border-radius: 20px; }
 
-.offices-home { background: var(--white); }
+.offices-home { background: var(--black); padding: 80px 0; }
+.offices-home .team-header { text-align: center; margin-bottom: 40px; }
+.offices-home .section-label { color: var(--gold); }
+.offices-home .section-title { color: var(--white); }
 .offices-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 800px; margin: 0 auto; }
 .office-card { background: var(--off-white); border: 1px solid var(--black-border); border-top: 3px solid var(--gold); border-radius: var(--radius); padding: 34px 30px; text-align: center; box-shadow: var(--shadow-sm); transition: var(--transition); }
 .office-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-gold); border-color: var(--gold); }
